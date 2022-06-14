@@ -23,7 +23,9 @@
 /* Letra Eventos del footer*/
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 
+/*Letra consultas*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /* Css Reset*/
 * {
@@ -278,6 +280,131 @@ footer p {
 
 }
 
+/*pagina de consulta*/
+
+.foto-portada-consulta {
+    width: 100%;
+    height: 620px;
+    background-image: url(img/consulta/Mia\ y\ Martin\ -\ Boda\ de\ día\ en\ Rincón\ de\ Pilar\ -\ Juan\ Pablo\ Mansilla\ _\ Fotografía\ de\ Bodas\ _\ Fotógrafo\ de\ Casamientos\ en\ Buenos\ Aires\,\ Argentina\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.primer-bloque-1 h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primer-bloque-1 h3 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+
+
+.mb-3 input {
+    width: 450px;
+}
+
+.mb-3 textarea {
+    width: 450px;
+}
+
+.form-floating select {
+    width: 450px;
+
+}
+
+
+
+.form-floating label {
+    padding-left: 70px;
+}
+
+.radios {
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.radios-0 label {}
+
+
+
+.boton button {
+
+    background-color: rgb(202, 139, 94);
+
+}
+
+.boton {
+    padding-left: 50px;
+}
+
+.segundo-bloque-1 {
+    background-image: url(img/consulta/pexels-thirdman-5961033\ \(4\).jpg);
+    width: 100%;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.segundo-bloque-1 h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.ubicacion h6 {
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    padding-top: 40px;
+}
+
+
+
+.primer-bloque-2 h6 {
+    padding-left: 70px;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.primer-bloque-2 p {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+
+}
+
+.primer-bloque-2 {
+    background-color: rgb(248, 248, 248);
+}
+
+.primer-bloque-2 svg {
+    margin-left: 70px;
+}
+
+iframe {
+    padding-left: 70px;
+}
+
+.redes svg {
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+
+.segundo-bloque-1-2 p {
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
 
 /*Responisve Desktop*/
 @media screen and (min-width:768px) {
